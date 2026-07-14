@@ -1,0 +1,41 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Restricted source data, stimuli, and generated outputs
+data/
+img/
+outputs/
+
+# Large scientific and model artifacts
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.mat
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

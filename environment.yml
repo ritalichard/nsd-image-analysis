@@ -1,0 +1,22 @@
+name: cse599n-nsd
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - nibabel
+  - nilearn
+  - h5py
+  - pillow
+  - scikit-image
+  - tqdm
+  - pytorch
+  - torchvision
+  - cpuonly
